@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family: vogue;
+    src: url(fonts/GFS_Didot/GFSDidot-Regular.ttf);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  
+}
+
+
+body{
+    background-color: #fefdfd;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sidenav ul li{
+    list-style-type: none;
+    margin: 50px 20px;
+    
+    
+    
+}
+
+#sidenav ul li a{
+    text-decoration: none;
+    color: #b5aeae;
+    padding-top: 50px; /* Adjust as needed */
+    display: inline-block; /* Ensures padding affects position */
+    
+
+}
+
+#sidenav ul li a:hover{
+    color: #797575;
+    text-shadow: 0px 0px 5px 5px;
+    
+    
+}
+
+
+
+#sidenav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: -250px;
+    top: 0;
+    padding-top: 20px;
+    transition: transform 0.7s ease;
+    z-index: 1;
+    background-color: #f0ecec;
+    
+    
+}
+
+#sidenav.active {
+    transform: translateX(250px);
+}
+
+
+
+#menubtn img {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 0;
+    top: 10px;
+    left: 15px;
+    cursor: pointer;
+    z-index: 2;
+    
+}
+
+
+
+
+
+
+
