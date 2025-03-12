@@ -82,3 +82,9 @@ body {
   width: 100%;
   height: 90%;
 }
+
+.grid2, .grid3, .grid4{
+  cursor: pointer;
+}
+
+
