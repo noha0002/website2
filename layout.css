@@ -1,35 +1,49 @@
 .grid_1 {
-  display: grid;
+  display: grid; 
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr ;
+margin-top:10px;
   gap: 10px;
+}
+.grid2:hover{
+    transform: scale(1.02);
+    
+
+
+}
+.grid3:hover{
+    transform: scale(1.02);
+
+
+}
+.grid4:hover{
+    transform: scale(1.02);
+    
+
 
 }
 
-.grid1 {
-  grid-column: 1/4;
-  grid-row: 1/4;
-  
-  
-}
 
 .grid2 {
-  grid-column: 1/2;
-  grid-row: 2/4;
-  padding-top: 200px;
-  
+    display: grid;
 }
-
 .grid3 {
-  grid-column: 2/3;
-  grid-row: 2/4;
-   padding-top: 200px;
-  
+    display: grid;
 }
-
 .grid4 {
-  grid-column: 3/4;
-  grid-row: 2/4;
-  padding-top: 200px;
-  
+    display: grid;
+}
+img, .p2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+/* grid-column: 1/2; grid-row: 1/2; sikrer, at både billedet og teksten placeres i samme grid-celle, så de overlapper hinanden.
+grid-column: 1/2; → Placerer elementet i første kolonne og strækker det til anden linje (slutter ved første kolonne).
+grid-row: 1/2; → Placerer elementet i første række og strækker det til anden linje (slutter ved første række).*/
+
+
+.p2 {
+    place-self: center;
+    color: white;
+    padding: 1em;
+    font-size: 3vw;
 }
