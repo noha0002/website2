@@ -20,10 +20,9 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-img,
-video {
+.grid1 img{
   width: 100%;
-  height: 100%;
+  height: auto;
   display: block;
 }
 
@@ -71,28 +70,15 @@ video {
   z-index: 3;
 }
 
-/* .grid_1{
-    position: fixed;
-    z-index: 0;
-    
-    
-} */
-
-/* .grid2 img {
-  width: 150px;
-  z-index: 2;
+.grid2 img{
+  width: 100%;
+  height: 90%;
 }
-
-.grid3 img {
-  width: 150px;
-  z-index: 2;
+.grid3 img{ 
+  width: 100%;
+  height: 90%;
 }
-
-.grid4 img {
-  width: 150px;
-  z-index: 2;
-} */
-
-.grid1 video {
-  filter: saturate(80%);
+.grid4 img{
+  width: 100%;
+  height: 90%;
 }
