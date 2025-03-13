@@ -6,7 +6,15 @@ margin-top:10px;
 }
 .grid_2{
     display: grid; 
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+margin-top:10px;
+  gap: 10px;
+  
+}
+
+.grid_3{
+    display: grid; 
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr;
 margin-top:10px;
   gap: 10px;
@@ -15,9 +23,10 @@ margin-top:10px;
 
 
 
+
+
 .grid2:hover{
     transform: scale(1.02);
-    
 
 
 }
@@ -32,6 +41,7 @@ margin-top:10px;
 
 
 }
+
 
 
 .grid2 {
@@ -59,5 +69,12 @@ grid-row: 1/2; → Placerer elementet i første række og strækker det til ande
     font-size: 3vw;
 }
 
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
