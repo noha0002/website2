@@ -12,7 +12,7 @@ h1 {
 }
 
 body {
-  background-color: #fefdfd;
+  background-color: #FFFFFF;
 }
 
 * {
@@ -25,6 +25,15 @@ body {
   height: auto;
   display: block;
 }
+
+/*.banner img{ 
+  width: 50%;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  
+}*/
 
 #sidenav ul li {
   list-style-type: none;
@@ -87,4 +96,13 @@ body {
   cursor: pointer;
 }
 
+
+
+.akti-img1 {
+    width: 100%;
+  height: auto;
+  display: block;
+  top: 0;
+  left: 0;
+}
 
