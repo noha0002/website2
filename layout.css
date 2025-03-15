@@ -3,6 +3,9 @@
   grid-template-columns: repeat(3, 1fr);
   margin-top: 10px;
   gap: 10px;
+    margin-right: 10px;
+      margin-left: 10px;
+
 }
 
 .grid_2 {
@@ -54,12 +57,15 @@
 
 .grid2 {
   display: grid;
+  
 }
 .grid3 {
   display: grid;
 }
 .grid4 {
   display: grid;
+
+  
 }
 .grid5{
   display: grid;
