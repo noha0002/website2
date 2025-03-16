@@ -1,10 +1,12 @@
 .grid_1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 10px;
+  margin-top: 14px;
   gap: 10px;
     margin-right: 10px;
       margin-left: 10px;
+      margin-bottom: 10px;
+     
 
 }
 
@@ -57,13 +59,16 @@
 
 .grid2 {
   display: grid;
+   
   
 }
 .grid3 {
   display: grid;
+ 
 }
 .grid4 {
   display: grid;
+
 
   
 }
@@ -94,13 +99,76 @@ grid-row: 1/2; → Placerer elementet i første række og strækker det til ande
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-.text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+
+@media(width<=800px){
+  .grid_1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 14px;
+  gap: 10px;
+    margin-right: 10px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+     
+
+}
+
+.p2 {
+  place-self: center;
+  color: white;
+  padding: 1em;
+  font-size: 10vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.grid_2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 10px;
+  gap: 10px;
+  margin-right: 40px;
+}
+
+.grid_3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 10px;
+  gap: 10px;
+
+ 
+}
+
+.grid_4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 10px;
+  gap: 10px;
+  padding-top: 70px;
+}
+
+.grid_7, .grid_8 {
+  display: grid;
+  grid-template-columns: 1fr; 
+  padding-top: 150px;
+  gap: 50px; /* Giver plads mellem billedet og teksten */
 }
 
 
+.grid2:hover {
+   transform: none;
+  filter: none;
+}
+.grid3:hover {
+  transform: none;
+  filter: none;
+}
+.grid4:hover {
+   transform: none;
+  filter: none;
+}
+
+
+}
 
 
